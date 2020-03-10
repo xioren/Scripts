@@ -40,7 +40,7 @@ def set_hostname():
     export('/etc/hostname', host, 'w')
 
 
-def redshit_conf():
+def redshift_conf():
     config = '''[redshift]
 location-provider=manual
 
@@ -67,8 +67,8 @@ def install_apps():
 
 if __name__ == '__main__':
     os.system('apt update && apt -y upgrade')
-    net_man_conf()
     set_hostname()
+    net_man_conf()
     make_dirs()
     install_apps()
     redshit_conf()
