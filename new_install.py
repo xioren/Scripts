@@ -16,7 +16,7 @@ def make_dirs():
     os.mkdir(f'{home}/Scripts')
 
 
-def net_man_conf():
+def netman_conf():
     config = '''[main]
 plugins=ifupdown,keyfile
 
@@ -24,7 +24,7 @@ plugins=ifupdown,keyfile
 managed=false
 
 [device-mac-randomization]
-wifi.scan-rand-mac-adress=ye
+wifi.scan-rand-mac-adress=yes
 
 [connection-mac-randomization]
 ethernet.cloned-mac-address=stable
@@ -68,7 +68,7 @@ def install_apps():
 if __name__ == '__main__':
     os.system('apt update && apt -y upgrade')
     set_hostname()
-    net_man_conf()
+    netman_conf()
     make_dirs()
     install_apps()
     redshit_conf()
