@@ -1,4 +1,3 @@
-
 # ImageGoblin
 
 ### changelog v1.0.8:
@@ -79,7 +78,7 @@
 
 + *Feed:* Using the feed argument, you can accumulate urls by inputting them one by one using the --feed mode. This is useful for accumulating urls as you find them while browsing the web, and downloading all at once.   
 
-*Misc:*
+### Misc:
   + A specific goblin can be forced using '--force _goblin_'.
   + All available goblins can be listed using '-l or --list'.
   + The format input needs to be exact so make sure elements/spaces/commas have not been erroneously added or left out.
