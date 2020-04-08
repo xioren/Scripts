@@ -1,8 +1,6 @@
 
 # ImageGoblin
 
----
-
 ### changelog v1.0.8:
 + complete instagram support
 + added goblins
@@ -11,22 +9,14 @@
 
 # This Program:
 
----
-
 + is a web scraping tool specifically for the discovery and retrieval of images on a webpage/server in the highest possible quality
 + is a work in progress
 
-
 # Requirements
-
----
 
 + Python 3.6+
 
-
 # Operation
-
----
 
 + *Default*: Inputting either a url or a text file containing urls (1 per line) will try to match the url(s) to a specific goblin. The goblin will download what images it can according to its rule set, in the highest possible quality. if no goblin is matched a generic goblin is used. If a text file is used, only the filename should be input, using the --local argument and the text file should be placed in the directory that the program will be ran from.
 
