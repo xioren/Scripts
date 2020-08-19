@@ -12,7 +12,7 @@ sudo apt-get autoclean -y
 mkdir ~/Applications
 
 # apt installs
-sudo apt-get install ffmpeg curl wget ssh openvpn webp cmatrix mpv  -y
+sudo apt-get install ffmpeg curl wget ssh openvpn webp cmatrix mpv -y
 
 # third party installs
 echo "getting third party applications"
