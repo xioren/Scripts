@@ -15,7 +15,6 @@ mkdir ~/Applications
 sudo apt-get install ffmpeg curl wget ssh openvpn webp cmatrix mpv  -y
 
 # third party installs
-
 echo "getting third party applications"
 
 # youtube-dl
