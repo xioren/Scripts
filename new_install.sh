@@ -8,7 +8,7 @@ sudo apt-get dist-upgrade -y
 sudo apt-get autoremove -y
 sudo apt-get autoclean -y
 
-# make dires
+# make dirs
 mkdir ~/Applications
 
 # apt installs
